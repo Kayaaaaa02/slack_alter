@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀//**)",
+      "Read(//c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀/**)",
+      "Bash(ls -la \"/c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀/\")",
+      "Bash(find \"/c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀/13.F&Co\" -type f -name *.md -o -name *.txt -o -name README*)",
+      "Bash(ls:*)",
+      "Bash(find \"/c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀/13.F&Co/1차 워크플로우 MVP\" -maxdepth 2 -type f \\\\\\(-name *.py -o -name *.js -o -name *.json -o -name *.md \\\\\\))",
+      "Bash(head:*)",
+      "Bash(find \"/c/Users/AC1058/OneDrive - Kayaa/OneDrive - F&F/AX팀/14.FF MKT Dashboard/달파\" -maxdepth 2 -type f)",
+      "Bash(pip install:*)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
